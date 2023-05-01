@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 
@@ -25,6 +24,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+
       {/* Search bar section */}
       <header className="header-upper py-3">
         <div className="container-xxl">
@@ -92,6 +92,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+
       {/* navbar menu items */}
       <header className="header-bottom py-3">
         <div className="container-xxl">
@@ -99,9 +100,9 @@ const Header = () => {
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-30">
                 <div>
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <button
-                      class="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"

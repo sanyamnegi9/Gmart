@@ -1,0 +1,22 @@
+:root {
+  --top-highlight-color--: #131921;
+  --header-border-color--: #3b4149;
+  --search-bg-color--: #febd69;
+  --navbar-bg-color--: #232f3e;
+}
+
+
+footer{
+  background-color: var(--navbar-bg-color--);
+}
+
+footer:not(:first-child){
+  border-top: 1px solid var(--header-border-color--);
+}
+
+footer .input-group-text{
+  background-color: var(--navbar-bg-color--);
+  color: white;
+  padding: 8px 17px;
+
+}
