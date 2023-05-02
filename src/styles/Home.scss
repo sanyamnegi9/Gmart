@@ -1,0 +1,35 @@
+:root{
+  --banner-heading--: #bf4800;
+}
+
+.main-banner-content{
+  top: 15%;
+  left: 5%;
+
+}
+
+.main-banner-content h4{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--banner-heading--);
+  margin: 0 0 12px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+}
+
+.main-banner-content h5{
+  font-size: 42px;
+  line-height: 54px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.main-banner-content p{
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4;
+  color: var(--top-highlight-color--);
+
+}

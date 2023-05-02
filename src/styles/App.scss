@@ -1,6 +1,7 @@
 @import url(Header.scss);
 @import url(Footer.scss);
 @import url(Layout.scss);
+@import url(Home.scss);
 
 *{
   margin: 0;
@@ -30,3 +31,15 @@ body {
   gap: 30px;
 }
 
+.button{
+  background-color: var(--navbar-bg-color--);
+  color: white;
+  font-size: 14px;
+  padding: 13 5;
+  border-radius: 25px;
+}
+
+.button:hover{
+  background-color: var(--search-bg-color--);
+  color: var(--top-highlight-color--);
+}
