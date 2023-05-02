@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
-import {BsLinkedin, BsGithub, BsYoutube, BsInstagram} from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsYoutube, BsInstagram } from "react-icons/bs";
 
 const FooterLinks = () => {
   return (
     <>
-      <footer className="py-4">
+      <footer className="py-4 q-links">
         <div className="continer-xl">
           <div className="row">
             <div className="col-4 padding-left">
               <h4 className="text-white mb-4">Contact Us</h4>
               <div className="footer-links d-flex flex-column">
                 <address className="text-white fs-6">
-                  H.No: 13, New Amar Nath Building, Bhagirath Palace, Delhi{" "}
-                  <br />
+                  H.No: 13, Amar Nath Building, Bhagirath Palace, Delhi<br />
                   PinCode: 110006
                 </address>
                 <a
@@ -75,6 +74,6 @@ const FooterLinks = () => {
       </footer>
     </>
   );
-}
+};
 
-export default FooterLinks
+export default FooterLinks;

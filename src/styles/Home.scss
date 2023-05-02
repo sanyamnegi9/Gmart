@@ -1,7 +1,11 @@
 :root{
   --banner-heading--: #bf4800;
+  --background-color--: #f5f5f7;
+  --catogories-border--: #ededed;
 }
 
+
+// Banners section
 .main-banner-content{
   top: 15%;
   left: 5%;
@@ -32,4 +36,86 @@
   letter-spacing: 0.4;
   color: var(--top-highlight-color--);
 
+}
+
+
+.small-banner-content {
+  top: 18%;
+  left: 7%;
+
+}
+
+.small-banner-content h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--banner-heading--);
+  margin: 0 0 12px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+}
+
+.small-banner-content h5 {
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.small-banner-content p {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.4;
+  color: var(--top-highlight-color--);
+
+}
+
+.small-banner{
+  width: 49%;
+
+}
+
+// services section
+
+.home-wrapper-2{
+  background-color: var(--background-color--);
+
+}
+
+
+// categories section
+
+.categories {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+.categories>div {
+  width: 25%;
+  padding: 10px 10px 10px 20px;
+}
+
+.categories > div > div{
+  width: 60%;
+}
+
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4){
+  border-bottom: 1px solid var(--catogories-border--);
+}
+
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3){
+  border-right: 1px solid var(--catogories-border--);
+}
+
+.categories>div:nth-child(5),
+.categories>div:nth-child(6),
+.categories>div:nth-child(7) {
+  border-right: 1px solid var(--catogories-border--);
 }
