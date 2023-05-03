@@ -5,24 +5,27 @@ const FooterLinks = () => {
   return (
     <>
       <footer className="py-4 q-links">
-        <div className="continer-xl">
-          <div className="row">
+        <div className="continer-xxl">
+          <div className="row fit-width">
             <div className="col-4 padding-left">
               <h4 className="text-white mb-4">Contact Us</h4>
               <div className="footer-links d-flex flex-column">
                 <address className="text-white fs-6">
-                  H.No: 13, Amar Nath Building, Bhagirath Palace, Delhi<br />
+                  H.No: 13, Amar Nath Building,
+                  <br />
+                  Bhagirath Palace, Delhi
+                  <br />
                   PinCode: 110006
                 </address>
                 <a
                   href="tel: +91 9876545678"
-                  className="mt-4 d-block mb-1 text-white"
+                  className="mt-3 d-block mb-1 text-white"
                 >
                   +91 9876545678
                 </a>
                 <a
                   href="mailto: rixaro4713@meidecn.com"
-                  className="mt-2 d-block mb-3 text-white"
+                  className="mt-2 d-block mb-0 text-white"
                 >
                   rixaro4713@meidecn.com
                 </a>
