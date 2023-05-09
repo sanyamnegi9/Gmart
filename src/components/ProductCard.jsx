@@ -19,7 +19,7 @@ const ProductCard = () => {
               alt="watchimage"
             />
             <img
-              src="images/watch-1.png"
+              src="images/watch-1.avif"
               className="img-fluid"
               alt="watchimage"
             />
