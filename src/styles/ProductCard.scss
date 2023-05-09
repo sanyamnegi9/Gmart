@@ -3,7 +3,13 @@
   padding: 15px;
   border-radius: 10px;
   overflow: hidden;
+  width: 100%;
+}
 
+.product-card p.description{
+  color: #777;
+  font-size: 13px;
+  margin-right: 20px;
 }
 
 .product-card .product-image{
