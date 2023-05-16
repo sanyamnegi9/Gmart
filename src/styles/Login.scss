@@ -1,0 +1,44 @@
+.auth-card{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+
+}
+
+.auth-card h3{
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--para-color--);
+}
+
+.auth-card .form-control{
+  height: 50px;
+  background-color: var(--input-bg-color--);
+  color: var(--para-color--);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.auth-card a{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--filter-title-color--);
+}
+
+.auth-card .signup{
+  background-color: var( --form-check--);
+  color: var(--top-highlight-color--);
+}
+
+.auth-card .signup:hover{
+  background-color: var(--top-highlight-color--);
+  color: white;
+}
+
+.auth-card p{
+  font-size: 13px;
+  color: var(--para-color--);
+}
