@@ -3,8 +3,8 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./styles/App.scss";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import About from './pages/About';
-import Contact from './pages/Contact';
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import OurStore from "./pages/OurStore";
 import Blog from "./pages/Blog";
 import CompareProducts from "./pages/CompareProducts";
@@ -14,6 +14,10 @@ import Signup from "./pages/Signup";
 import ForgotPassword from "./pages/ForgotPassword";
 import Resetpassword from "./pages/Resetpassword";
 import Singleblog from "./pages/Singleblog";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -33,6 +37,10 @@ function App() {
           <Route path="signup" element={<Signup />} />
           <Route path="forgot-password" element={<ForgotPassword />} />
           <Route path="reset-password" element={<Resetpassword />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="refund-policy" element={<RefundPolicy />} />
+          <Route path="shipping-policy" element={<ShippingPolicy />} />
+          <Route path="terms-and-conditions" element={<TermsAndConditions />} />
         </Route>
       </Routes>
     </BrowserRouter>
