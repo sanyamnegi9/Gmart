@@ -12,6 +12,7 @@
 @import url(Singleblog.scss);
 @import url(Policies.scss);
 @import url(SingleProduct.scss);
+@import url(Cart.scss);
 
 
 :root {
@@ -71,7 +72,6 @@ body {
   transition-duration: 0.3s;
   letter-spacing: 2px;
   min-width: 80px;
-  text-transform: uppercase;
   font-weight: 700;
   text-align: center;
   padding: 15px 30px;
