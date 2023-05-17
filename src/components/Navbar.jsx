@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
+import menu from "../images/menu.svg";
+
 
 const Navbar = () => {
   return (
@@ -17,7 +19,7 @@ const Navbar = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src="images/menu.svg" alt="menu" />
+                      <img src={menu} alt="menu" />
                       <span className="me-5 d-inline-block">
                         Shop Categories
                       </span>

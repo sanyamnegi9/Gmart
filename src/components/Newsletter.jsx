@@ -1,3 +1,4 @@
+import newsletter from "../images/newsletter.png";
 
 const Newsletter = () => {
   return (
@@ -7,7 +8,7 @@ const Newsletter = () => {
           <div className="row align-item-center">
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
-                <img src="images/newsletter.png" alt="newsletter" />
+                <img src={newsletter} alt="newsletter" />
                 <h2 className="mb-0 text-white">Sign Up for Newsletters</h2>
               </div>
             </div>
