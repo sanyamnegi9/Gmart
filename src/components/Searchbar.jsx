@@ -10,7 +10,7 @@ const Searchbar = () => {
           <div className="row align-item-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Developers.</Link>
+                <Link to="/" className="text-white">Developers.</Link>
               </h2>
             </div>
             <div className="col-5">

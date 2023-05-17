@@ -28,12 +28,15 @@
   color: var(--filter-title-color--);
 }
 
-.auth-card .signup{
+.auth-card .signup,
+.main-product-details .signup{
   background-color: var( --form-check--);
   color: var(--top-highlight-color--);
+  border: none;
 }
 
-.auth-card .signup:hover{
+.auth-card .signup:hover,
+.main-product-details .signup:hover{
   background-color: var(--top-highlight-color--);
   color: white;
 }
