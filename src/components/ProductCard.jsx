@@ -1,7 +1,7 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
-import productcompare from '../images/prodcompare.svg';
+import productcompare from "../images/prodcompare.svg";
 import wish from "../images/wish.svg";
 import watch from "../images/watch.jpg";
 import watch2 from "../images/watch-1.avif";
@@ -15,25 +15,29 @@ const ProductCard = (props) => {
   return (
     <>
       <div
-        className={` ${location.pathname === "/product" ? `gr-${grid}` : "col-3"}`}
+        className={` ${
+          location.pathname === "/product" ? `gr-${grid}` : "col-3"
+        }`}
       >
-        <Link to=":id" className="product-card position-relative">
+        <Link
+          to={`${
+            location.pathname === "/" 
+            ? "/product/:id" 
+            : location.pathname === "/product/:id"
+            ? "/product/1"
+            : ":id"
+            
+          }`}
+          className="product-card position-relative"
+        >
           <div className="wishlist-icon position-absolute">
             <button className="border-0 bg-transparent">
               <img src={wish} alt="wishlist" />
             </button>
           </div>
           <div className="product-image">
-            <img
-              src={watch}
-              className="img-fluid"
-              alt="watchimage"
-            />
-            <img
-              src={watch2}
-              className="img-fluid"
-              alt="watchimage"
-            />
+            <img src={watch} className="img-fluid" alt="watchimage" />
+            <img src={watch2} className="img-fluid" alt="watchimage" />
           </div>
           <div className="product-details">
             <h6 className="brand">Apple watch</h6>
@@ -47,7 +51,7 @@ const ProductCard = (props) => {
               size={24}
               activeColor="#ffd700"
             />
-            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`} >
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
               omnis quaerat voluptatem impedit. Et maiores vero delectus iusto
               consectetur assumenda recusandae voluptatum inventore quis sunt!
