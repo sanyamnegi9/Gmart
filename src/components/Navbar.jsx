@@ -24,7 +24,7 @@ const Navbar = () => {
                         Shop Categories
                       </span>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                       <li>
                         <Link className="dropdown-item text-white" to="#">
                           Action

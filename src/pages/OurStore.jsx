@@ -141,7 +141,7 @@ const OurStore = () => {
                     </h5>
                     <ReactStars
                       count={5}
-                      value="4"
+                      value={4}
                       edit={false}
                       size={24}
                       activeColor="#ffd700"
@@ -159,7 +159,7 @@ const OurStore = () => {
                     </h5>
                     <ReactStars
                       count={5}
-                      value="4"
+                      value={4}
                       edit={false}
                       size={24}
                       activeColor="#ffd700"
