@@ -3,7 +3,6 @@ import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
 import productcompare from '../images/prodcompare.svg';
 import wish from "../images/wish.svg";
-import wishlist from "../images/wishlist.svg";
 import watch from "../images/watch.jpg";
 import watch2 from "../images/watch-1.avif";
 import addcart from "../images/add-cart.svg";
@@ -20,9 +19,9 @@ const ProductCard = (props) => {
       >
         <Link to=":id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
-            <Link>
+            <button className="border-0 bg-transparent">
               <img src={wish} alt="wishlist" />
-            </Link>
+            </button>
           </div>
           <div className="product-image">
             <img
@@ -57,15 +56,15 @@ const ProductCard = (props) => {
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
-              <Link>
+              <button className="border-0 bg-transparent">
                 <img src={productcompare} alt="compare" />
-              </Link>
-              <Link>
+              </button>
+              <button className="border-0 bg-transparent">
                 <img src={view} alt="view" />
-              </Link>
-              <Link>
+              </button>
+              <button className="border-0 bg-transparent">
                 <img src={addcart} alt="add cart" />
-              </Link>
+              </button>
             </div>
           </div>
         </Link>
