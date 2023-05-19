@@ -5,7 +5,7 @@ import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
 import Container from "../components/Container";
-import {services} from "../utils/Data";
+import { services } from "../utils/Data";
 
 const Home = () => {
   return (
@@ -201,6 +201,8 @@ const Home = () => {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+          <ProductCard />
+          <ProductCard />
         </div>
       </Container>
 
@@ -280,6 +282,8 @@ const Home = () => {
           <SpecialProduct />
           <SpecialProduct />
           <SpecialProduct />
+          <SpecialProduct />
+          <SpecialProduct />
         </div>
       </Container>
 
@@ -295,15 +299,17 @@ const Home = () => {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+          <ProductCard />
+          <ProductCard />
         </div>
       </Container>
 
       {/* Marquee section*/}
-      <Container class1="marquee-wrapper py-3 ">
+      <Container class1="marquee-wrapper py-3">
         <div className="row">
           <div className="col-12">
             <div className="marquee-inner-wrapper card-wrapper">
-              <Marquee className="d-dlex">
+              <Marquee className="d-dlex marquee-height">
                 <div className="mx-4 w-25">
                   <img src="images/brand-01.png" alt="brand" />
                 </div>
@@ -322,10 +328,10 @@ const Home = () => {
                 <div className="mx-4 w-25">
                   <img src="images/brand-06.png" alt="brand" />
                 </div>
-                <div className="mx-4 w-25">
+                <div className="mx-4 w-25 ">
                   <img src="images/brand-07.png" alt="brand" />
                 </div>
-                <div>
+                <div className="mx-4 w-25 ">
                   <img src="images/brand-08.png" alt="brand" />
                 </div>
               </Marquee>

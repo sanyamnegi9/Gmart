@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const SpecialProduct = () => {
   return (
     <>
-      <div className="col-6 mb-3">
+      <div className="col-4 mb-3">
         <div className="special-product-card">
           <div className="d-flex justify-content-between">
-            <div>
+            <div className="special-product-image">
               <img src="images/watch.jpg" className="img-fluid" alt="watch" />
             </div>
             <div className="special-product-content">
@@ -29,7 +29,7 @@ const SpecialProduct = () => {
                   <b>5 </b>days
                 </p>
                 <div className="d-flex gap-10 align-items-center">
-                  <span className="badge rounded-circle p-3 bg-danger">1</span>
+                  <span className="badge rounded-circle p-3 bg-danger">2</span>
                   :
                   <span className="badge rounded-circle p-3 bg-danger">1</span>
                   :
