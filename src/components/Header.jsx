@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       {/* Highlights */}
-      <header className="header-top-strip py-3">
+      <header className="header-top-strip">
         <div className="container-xl">
           <div className="row">
             <div className="col-6">
@@ -31,7 +31,7 @@ const Header = () => {
       </header>
 
       {/* SearchBar */}
-      <header className="header-upper py-3">
+      <header className="header-upper">
         <div className="container-xxl">
           <div className="row align-items-center">
             <div className="col-2">
@@ -116,7 +116,7 @@ const Header = () => {
       </header>
 
       {/* NavBar */}
-      <header className="header-bottom py-3">
+      <header className="header-bottom">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">

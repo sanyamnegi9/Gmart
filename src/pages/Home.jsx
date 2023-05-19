@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <>
       {/* banners section */}
-      <Container class1="home-wrapper-1 py-5">
+      <Container class1="home-wrapper-1 py-3">
         <div className="row">
-          <div className="col-6">
+          <div className="col-6 p-15">
             <div className="main-banner position-relative">
               <img
                 src="images/main-banner-1.jpg"
@@ -103,32 +103,30 @@ const Home = () => {
           </div>
         </div>
       </Container>
+
       {/* services section */}
-      <Container class1="home-wrapper-2 py-5">
+      <Container class1="home-wrapper-2 py-4">
         <div className="row">
           <div className="col-12">
             <div className="services d-flex align-items-center justify-content-between">
-            {
-              services.map((i,j) => {
-                return(
-                  <div className="d-flex align-items-center gap-15" key={j} >
+              {services.map((i, j) => {
+                return (
+                  <div className="d-flex align-items-center gap-15" key={j}>
                     <img src={i.image} alt="services" />
                     <div>
                       <h6>{i.title}</h6>
                       <p className="mb-0">{i.tagline}</p>
                     </div>
-                  </div>  
+                  </div>
                 );
-              })
-            }
-                          
+              })}
             </div>
           </div>
         </div>
       </Container>
 
       {/* categories section */}
-      <Container class1="home-wrapper-2 py-5">
+      <Container class1="home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <div className="categories d-flex flex-wrap justify-content-between align-items-center">
@@ -194,7 +192,7 @@ const Home = () => {
       </Container>
 
       {/* Featured collection section  */}
-      <Container class1="featured-wrapper py-5 home-wrapper-2">
+      <Container class1="featured-wrapper pt-3 home-wrapper-2">
         <div className="row ml-0">
           <div className="col-12">
             <h3 className="section-heading">Featured Collections</h3>
@@ -207,7 +205,7 @@ const Home = () => {
       </Container>
 
       {/* Famous Products */}
-      <Container class1="famous-wrapper py-5 home-wrapper-2">
+      <Container class1="famous-wrapper pt-3 home-wrapper-2">
         <div className="row">
           <div className="col-3">
             <div className="famous-card position-relative">
@@ -271,7 +269,7 @@ const Home = () => {
       </Container>
 
       {/* Special Products section */}
-      <Container class1="special-wrapper py-5 home-wrapper-2">
+      <Container class1="special-wrapper pt-3 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading">Special Products</h3>
@@ -286,7 +284,7 @@ const Home = () => {
       </Container>
 
       {/* Our Popular Products */}
-      <Container class1="popular-wrapper py-5 home-wrapper-2">
+      <Container class1="popular-wrapper py-3 home-wrapper-2">
         <div className="row ml-0">
           <div className="col-12">
             <h3 className="section-heading">Our Popular Products</h3>
@@ -301,7 +299,7 @@ const Home = () => {
       </Container>
 
       {/* Marquee section*/}
-      <Container class1="marquee-wrapper py-5 ">
+      <Container class1="marquee-wrapper py-3 ">
         <div className="row">
           <div className="col-12">
             <div className="marquee-inner-wrapper card-wrapper">
@@ -337,7 +335,7 @@ const Home = () => {
       </Container>
 
       {/* Blog section */}
-      <Container class1="blog-wrapper py-5 home-wrapper-2">
+      <Container class1="blog-wrapper py-3 home-wrapper-2">
         <div className="row fit-width ml-0">
           <div className="col-12">
             <h3 className="section-heading">Our Latest Blogs</h3>
